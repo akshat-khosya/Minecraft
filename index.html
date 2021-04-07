@@ -11,7 +11,7 @@
     integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
   <link href="CSS\styles.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@100&family=Sacramento:wght@300&display=swap"
     rel="stylesheet">
   <link rel="icon" href="Image/icon.png">
   
@@ -34,13 +34,13 @@
           <li class="nav-item">
             <a class="nav-link" href="">About</a>
           </li>
-          <li>
+          <li class="nav-item">
             <a class="nav-link" href="">Work</a>
           </li>
-          <li>
+          <li class="nav-item">
             <a class="nav-link" href="">Team</a>
           </li>
-          <li>
+          <li class="nav-item"> 
 
             <button onclick="window.location.href='https://forms.gle/vkbNfzG2STrJyNcz7'" type="button"
               class="btn btn-light btn-outline-primary" formtarget="__blank"><i class="far fa-hand-point-right"></i> Join Us </button>
@@ -70,8 +70,8 @@
           buildings, statues, pixel art, and more.
         </p>
         <div style="text-align: center;">
-          <button type="button" class="btn btn-light btn-outline-primary">Learn More <i class="fas fa-presentation"></i> </button>
-          <button type="button" class="btn btn-light btn-outline-primary"> Events <i class="fas fa-calendar-alt"></i></button>
+          <button type="button" class="btn btn-light btn-outline-primary learn">Learn More <i class="fas fa-presentation"></i> </button>
+          <button type="button" class="btn btn-light btn-outline-primary event"> Events <i class="fas fa-calendar-alt"></i></button>
         </div>
 
       </div>
@@ -135,7 +135,7 @@
         </p>
         <p style="text-align: center;">
           <strong>Check our work</strong>
-          <button type="button" class="btn  btn-light btn-outline-danger">Click Me</button>
+          <button type="button" class="btn  btn-light btn-outline-danger clickme">Click Me</button>
           <br>
         </p>
       </div>
@@ -146,14 +146,14 @@
   </section>
   <section class="bottom">
     <div class="row" style="text-align: center;">
-      <div class="col-lg-4  ">
-        <h4>
-          Links
+      <div class="col-lg-4 col-md-6 ">
+        <h4><strong>Links</strong>
+         
         </h4>
         <nav>
           <ul class="navbar-nav ">
             <li class="nav-item">
-              <a class="nav-link" href="">Home</a>
+              <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="">About</a>
@@ -165,15 +165,15 @@
               <a class="nav-link" href="">Team</a>
             </li>
             <li>
-              <a class="nav-link" href="https://forms.gle/vkbNfzG2STrJyNcz7">Join Us</a>
+              <a class="nav-link" target="_blank" href="https://forms.gle/vkbNfzG2STrJyNcz7">Join Us</a>
             </li>
       </div>
-      <div class="col-lg-4  ">
-        <h4>Events</h4>
+      <div class="col-lg-4 col-md-6 ">
+        <h4><strong>Events</strong></h4>
         <p>No event Yet</p>
       </div>
-      <div class="col-lg-4 ">
-        <h3>Contact Us</h3>
+      <div class="col-lg-4 col-md-6 ">
+        <h3><strong>Contact Us</strong></h3>
         <p>
           Email: minecraftclub@iiitu.ac.in
         </p>
@@ -186,31 +186,41 @@
 
   </section>
 
-  <nav class="navbar fixed-bottom navbar-expand-lg bg-dark navbar-dark">
+
+ <!-- <nav class="navbar fixed-bottom navbar-expand-lg bg-dark navbar-dark">
 
     <p class="text-sm text-center text-gray-200 sm:text-left " style="color: white;">© 2021 <strong
         style="color: white;"> Minecraft Hoes!</strong></p>
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav ms-auto nav-item">
           
           <li>
 
             <button onclick="window.location.href='https://www.instgram.com'" type="button"
-            class="btn btn-dark"><i class="fab fa-instagram"></i></button>
+            class="btn btn-dark"><i class="fab fa-instagram fa-2x"></i></button>
           </li>
           <li>
             
             <button onclick="window.location.href='https://www.youtube.com'" type="button"
-            class="btn btn-dark"><i class="fab fa-youtube"></i></button>
+            class="btn btn-dark"><i class="fab fa-youtube fa-2x"></i></button>
           </li>
           <li>
 
             <button onclick="window.location.href='https://discord.gg/A9uPTJMX'" type="button"
-            class="btn btn-dark"><i class="fab fa-discord"></i></i></button>
+            class="btn btn-dark"><i class="fab fa-discord fa-2x"></i></i></button>
           </li>
 
   </nav>
+-->
+<nav class="navbar fixed-bottom navbar-expand-lg bg-dark navbar-dark">
 
-
+  <p class="text-sm text-center text-gray-200 sm:text-left " style="color: white;">© 2021 <strong
+      style="color: white;"> Minecraft Hoes!</strong></p>
+      <ul class="navbar-nav ms-auto nav-item">
+        <span class="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
+          <a class="text-white hover:text-blue-500 insta" href="https://www.instgram.com"><i class="fab fa-instagram fa-2x"></i></a>
+          <a class="text-white hover:text-blue-500 yout" href="https://www.youtube.com"><i class="fab fa-youtube fa-2x"></i></a>
+          <a class="text-white hover:text-blue-500 disc" href="https://discord.gg/A9uPTJMX"><i class="fab fa-discord fa-2x "></i></i></a>
+        </span>
   <!-- Optional JavaScript; choose one of the two! -->
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
