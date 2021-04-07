@@ -1,8 +1,7 @@
 .top-part{
-    background-color:#222831 ;
-    color: white;
+   
     margin: 200px 20px 200px 20px;
-    padding: 40px 0px 0px 0px;
+   
 }
 #whatis{
     font-family: 'Montserrat', sans-serif;
@@ -30,4 +29,9 @@
 }
 body{
     background-color: #dcedc2;
+}
+.container-fluid{
+    padding: 3% 15%;
+    background-color:#222831 ;
+    color: white;
 }
