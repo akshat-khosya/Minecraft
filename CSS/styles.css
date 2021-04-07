@@ -51,7 +51,7 @@ body{
 }
 .navbar-brand{
     font-family: "Ubuntu";
-    font-size: 2rem;
+    font-size: 225%;
     font-weight: bold;
 }
 .nav-item{
