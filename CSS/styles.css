@@ -1,112 +1,41 @@
-/* body of html*/
 body{
     font-family: 'Sacramento', cursive; 
-    background-color: black;
     
 }
 
-/* top carousel */
-#carousel-top{
-    margin: 8% 20% 0% 20%;
-}
-.carousel-img{
-    border-radius: 10px;
-}
-
-/* mobile css for top-carousel */
-@media  (max-width:900px){
-    #carousel-top{
-        margin: 20% 1% 0% 1%;
-    }
-}
-
- /* section what is minecraft  */
 .top-part{
     font-family: 'Montserrat', sans-serif;
    
-    margin: 10% 20% 0% 20%;
+    margin: 200px 20px 200px 20px;
+    
+
+@media (max-width:900px){
+    .top-part{
+        margin: 350px 20 px 200px 20px;
     }
-    .container-fluid{
-        padding: 3% 2%;
-        background-color:#222831 ;
-        color: white;
-       
-    }
-    @media (max-width:900px){
-        .container-fluid{
-            text-align: center;
-           
-        }
-        .top-part{
-            margin: 4% 1% 20% 1%;
-        }
-    }
-
-    /* imgage propert */
-    .whatis-img{
-        text-align: center  ;
-        border-radius: 10px;
-        margin: 20px 20px 20px 20px;
-        height: 100%;
-        width: 100%;
-        padding: 0px 35px 35px 0px;
-    }
-
-
-
-
-
+}
+}
 #whatis{
-     text-align: left;
+     text-align: center;
     font-size: 3rem;
     line-height: 1.5;
     font-family: 'Montserrat', sans-serif;
     
 }
-@media (max-width:900px){
-    #whatis{
-        text-align: center;
-        
-    }
-    
-}
 #why{
-    margin: 8% 20% 10% 20%;
-
+    padding:200px 20px 200px 20px;
     
 
-}
-.why-h2{
-    padding: 1% 0% 1% 0%;
-    text-align: center;
-    font-size: 2.5rem;
-}
-.ul-why{
-    font-size: 1.5rem;
 }
 .why{
-    background-color: #222831;
+    background-color: #393e46;
     color: rgb(240, 228, 228);
-    font-family: 'Montserrat', sans-serif;    
-}
-.why-img{
-    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+   
     
-    padding: 8% 0% 0% 8%;
-
-}
-@media (max-width:900px) {
-    #why{
-        
-        margin: 0% 1% 20% 1%;
-    }
-    .why-img{
-        text-align: center;
-        padding: 0% 2% 2% 2%;
-    }
-}
-.col-6-lg{
-    padding: 0px 0px 10px 0px;
+    padding: 40px 0px 0px 0px;
+    
+    
 }
 .wedo{
     background-color: #00adb5;
@@ -122,8 +51,14 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
-
-
+body{
+    background-color: #dcedc2;
+}
+.container-fluid{
+    padding: 3% 15%;
+    background-color:#222831 ;
+    color: white;
+}
 .navbar{
     padding: 0.4% 2%;
 }
@@ -152,7 +87,9 @@ body{
 .clickme{
      margin: 0% 1%;
 }
-
+li{
+    display: inline;
+}
 .insta{
     margin: 0px 8px 0px 8px;
 }
